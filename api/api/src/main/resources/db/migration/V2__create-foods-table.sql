@@ -1,0 +1,6 @@
+CREATE TABLE foods (
+    id SERIAL PRIMARY KEY,
+    name VARCHAR(250) NOT NULL,
+    calories NUMERIC,
+    type VARCHAR(250) NOT NULL
+);
